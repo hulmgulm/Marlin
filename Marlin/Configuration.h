@@ -134,7 +134,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "OctoPi - 210320" // AW
+#define CUSTOM_MACHINE_NAME "OctoPi - 210327" // AW
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -1115,8 +1115,8 @@
  * A total of 2 does fast/slow probes with a weighted average.
  * A total of 3 or more adds more slow probes, taking the average.
  */
-#define MULTIPLE_PROBING 2 // AW
-#define EXTRA_PROBING    1 // AW
+//#define MULTIPLE_PROBING 2 // AW
+//#define EXTRA_PROBING    1 // AW
 
 /**
  * Z probes require clearance when deploying, stowing, and moving between
